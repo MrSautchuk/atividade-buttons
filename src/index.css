@@ -1,0 +1,105 @@
+body {
+  display: flex;
+}
+
+.Btnred {
+  background-color: red;
+  border: solid 2px black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Btnblue {
+  background-color: blue;
+  border: solid 2px black;
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 700;
+  margin: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Btnblack {
+  background-color: black;
+  border: solid 2px black;
+  border-radius: 58px;
+  height: 100px;
+  width: 80px;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 700;
+  margin: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Btnwhite {
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 25px;
+  height: 80px;
+  width: 80px;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+  margin: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Btnred:hover { 
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+} 
+
+.Btnblue:hover { 
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+} 
+
+
+.Btnblack:hover { 
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+} 
+
+
+.Btnwhite:hover { 
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+} 
+
+.Btnred:active { 
+  transform: scale(0.9); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
+}
+
+.Btnblue:active { 
+  transform: scale(0.9); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
+}
+
+.Btnblack:active { 
+  transform: scale(0.9); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
+}
+
+.Btnwhite:active { 
+  transform: scale(0.9); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
+}
+
+.Sessaocenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
